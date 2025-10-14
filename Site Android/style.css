@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&display=swap'); /*fontes importadas*/
+
+@font-face{
+    font-family: "any";
+    src: url(fontes/idroid.otf) format('opentype'); /*fontes baixadas*/
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{  /*isso aqui serve para criar atalhos para qnd você for colocar uma dessas variaveis adicionadas abaixo!*/
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", cursive;
+    --fonte-android: 'any', cursive;
+}
+body{
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+}
+a.external::after{
+    content:'\00A0\1f517';
+}
+header{
+    background-image: linear-gradient(to bottom, #063d1e,#3ddc84);
+    min-height: 150px;
+    padding-top: 40px;
+
+}
+header > h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 0px #063d1e8a;
+    font-weight: normal;
+}
+header > p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    text-shadow: 3px 3px 7px #063d1e8a;
+    
+}
+nav{
+    background-color: var(--cor3);
+    box-shadow: 0px 8px 9px #2fa86585;
+    padding-bottom: 6px;
+    
+}
+nav > a{
+    color: var(--cor1);
+    padding: 10px ;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .9s;
+}
+nav a:hover{
+    background-color: #1a5c37;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 9px px rgba(0, 0, 0, 0.445);
+    margin-bottom: 30px;
+    border-radius: 3px 3px 10px 10px;
+    margin-top: 1px;
+}
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+main h2 {
+    font-family: var(--fonte-android);
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    font-weight: normal;
+}
+main p{
+    padding: 15px 0px;
+    text-align: justify; /*isso faz o texto para no mesmo lugar em todas as linhas*/
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em; /*espaço entre uma linha e outra*/
+}
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+}
+main a{
+    color:var(--cor5);
+    background-color: var(--cor4);
+    padding: 2px 8px;
+    text-decoration: none;
+    transition-duration: 0.9s;
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+}
+main img{
+    width: 100%;
+}
+main img.pequena{
+    margin: auto;    /*esse tres faz centralizar uma foto*/ 
+    display: block;
+    max-width: 350px;
+}
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58%; /*Isso faz a altura da div ser 58% da largura dela.*/
+}
+div.video > iframe{
+    position: absolute; /*Quando eu coloco position absolute, eu consigo mexer no top e no left*/
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside h3{
+    background-color: var(--cor4);
+    margin: -10px -10px 0px -10px; /*Quando queremos fazer um header usando por exemplo um h1 que ta dentro de uma seção*/
+    border-radius: 10px 10px 0px 0px; 
+    padding: 10px;
+    color: white;
+    
+}
+aside ul{
+    list-style-type: '\2714\00a0\00a0'; /*para mudar o simbolo da bolinha*/
+    list-style-position: inside; /*faz o bolinha ficar na direção padrao de um texto*/
+    columns: 2; /*divide o conteúdo todo na quantidade de colunas desejada*/
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;   
+        }
+        body{
+            background-color: rgb(49, 49, 49);
+        }
+        header{
+            background-color: rgb(35, 60, 129);
+        }
+        header > h1{
+            color: white;
+        }
+        div {
+            color: white;
+            background-color: rgb(35, 60, 129);
+        }
+        a:hover{
+            background-color: rgb(190, 190, 190);
+            padding: 2px 3px;
+            display: inline-block;
+        }
+        main{
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            
+
+            min-width: 320px; /*o main não vai ocupar um espaço Menor que isso*/
+            max-width: 600px; /*o main não vai ocupar um espaço Maior que isso*/
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aulinhas</h1>
+    </header>
+    <div>
+        <a href="#"></a>Principal</a>
+        <a href="#"></a>Referencias</a>
+        <a href="#"></a>Contatos</a>
+    </div>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi natus explicabo animi sequi, mollitia ea porro consectetur, ex veniam voluptatem repudiandae ducimus magni deserunt? Dignissimos pariatur rerum neque quasi!Lorem ipsum dolor sit amet consectetur adipisicing elit. Et excepturi nesciunt pariatur blanditiis veniam quo tempora dolore vel, praesentium itaque voluptates voluptatem architecto consectetur fugiat ut dolores odit voluptatum ipsam!</p>
+        <picture>
+            <source media="(max-width: 800px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet perspiciatis optio, eligendi quae provident maxime voluptate eius? Culpa dolores doloribus, velit saepe laboriosam quasi nisi quis rem, porro eveniet odit.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet tempora ea expedita vel perspiciatis, eum totam, repudiandae iusto similique dolore adipisci praesentium. Nemo ea odit reiciendis molestiae repudiandae eveniet rem!</p>
+    </main>
+    
+</body>
+</html>
