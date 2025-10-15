@@ -30,7 +30,7 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 1px 2px 5px #492c4377;;
+    box-shadow: 1px 2px 5px #492c4377;
     border-bottom: var(#eedac1);
     background: linear-gradient(to bottom, #81196b, #e09fd2); 
     min-height: 80px;
@@ -104,7 +104,7 @@ main img{
     display: block; 
     margin: 0 auto;
 } 
-@media (max-width: 390px){
+@media (max-width: 508px){
 
     .navbar a{
        margin: 2px;
@@ -123,29 +123,37 @@ main img{
         display: block;
     }
     .nomech{
-        margin-left: 100px; ;
-        
+        margin-left: 100px; ; 
     }
 }
 main > article{
-    background-color: #81196b;
+    background-image: linear-gradient(to right, #ff00c8, transparent);
+    box-shadow: 1px -4px 8px #492c4377;
 }
 main h1{
-    color: #e09fd2;
+    color: #612c55;
     width: bold;
     font-size: 7rem;
     text-align: center;
     margin:25px;
+    text-shadow: 2px 3px 2px #000000c7;
     
 
 }
-article > img{
+.Tortach{
     margin: auto;
-    left: 0;
-    margin-left: 30px;
+    display: block;
     background-color: #6b3516b2;
     border-radius: 50px;
     box-shadow: 2px 3px 4px #4d2610b6;
+    transition-duration: 1s;
+}
+.lima{
+    margin: auto;
+    display: block;
+    background-color: #7D9444;
+    border-radius: 50px;
+    box-shadow: 2px 3px 4px #7D9444;
     transition-duration: 1s;
 }
 article > img:hover{
@@ -154,7 +162,7 @@ article > img:hover{
 article h2{
     padding-top: 7px;
     color: white;
-    margin-left: 71px;
+    text-align: center;
     font-size: 20px;
 }
 html {
