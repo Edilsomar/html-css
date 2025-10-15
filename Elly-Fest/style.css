@@ -100,6 +100,9 @@ section {
     font-size: 1.7rem;
     cursor: pointer;
 }
+main{
+    margin-top: 80px;
+}
 main img{
     display: block; 
     margin: 0 auto;
@@ -121,9 +124,6 @@ main img{
     .Tortach {
         margin: auto;
         display: block;
-    }
-    .nomech{
-        margin-left: 100px; ; 
     }
 }
 main > article{
