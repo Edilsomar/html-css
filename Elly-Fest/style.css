@@ -27,10 +27,14 @@ section {
 }
 
 .header {
-    box-shadow: 1px 1.1px 5px #a56c9977;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 2px 5px #492c4377;;
     border-bottom: var(#eedac1);
     background: linear-gradient(to bottom, #81196b, #e09fd2); 
     min-height: 80px;
+    width: 100%;
 
 }
 
@@ -102,7 +106,31 @@ main img{
 main > article{
     background-color: #81196b;
 }
-main img{
+main h1{
+    color: #e09fd2;
+    width: bold;
+    font-size: 7rem;
+    text-align: center;
+    margin:25px;
+    
+
+}
+article > img{
     margin: auto;
+    left: 0;
+    margin-left: 30px;
+    background-color: #6b3516b2;
+    border-radius: 50px;
+    box-shadow: 2px 3px 4px #4d2610b6;
+    transition-duration: 1s;
+}
+article > img:hover{
+    background-color: rgb(255, 255, 255);
+}
+article h2{
+    padding-top: 7px;
+    color: white;
+    margin-left: 71px;
+    font-size: 20px;
 
 }
