@@ -18,13 +18,7 @@
 }
 
 body {
-    background-image: url(img/BG-removebg-preview.png);
     background-color: var(--bg);
-    height: 120vh;
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 350px;
 }
 section {
     padding: 3rem 2rem;
@@ -33,15 +27,11 @@ section {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
     box-shadow: 1px 1.1px 5px #a56c9977;
     border-bottom: var(#eedac1);
     background: linear-gradient(to bottom, #81196b, #e09fd2); 
     min-height: 80px;
+
 }
 
 .header section {
@@ -91,4 +81,24 @@ section {
     padding: 1rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
+}
+main img{
+    display: block; 
+    margin: 0 auto;
+} 
+main > article{
+    background-color: #81196b;
+}
+@media (max-width: 600px){
+
+    .navbar a{
+       margin: 5px;
+    }
+
+    .header img {
+        margin:0px;
+    }
+    .icons{
+        margin: 10px;
+    }
 }
