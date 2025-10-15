@@ -63,12 +63,12 @@ section {
     box-shadow: 1px 1px 2px #2c0925a2;
 }
 
-div .icons1 img {
+.icons1 img {
     margin: 1rem;
     cursor: pointer;
 }
 
-div .icons1 img:hover {
+.icons1:hover {
     width: 40px;
     height: 40px;
     padding: 1px 0px 0px 3.8px;
@@ -78,7 +78,21 @@ div .icons1 img:hover {
     position: relative;
     bottom: 4px;
 }
+.icons2 img {
+    margin: 1rem;
+    cursor: pointer;
+}
 
+.icons2:hover {
+    width: 40px;
+    height: 40px;
+    padding: 1px 0px 0px 3.8px;
+    background-color: #81196b;
+    border-radius: 10px;
+    box-shadow: 1.2px 1.2px 1.6px #2c0925c4;
+    position: relative;
+    bottom: 4px;
+}
 .btn {
     background: var(--main-color);
     color: #fff;
@@ -103,6 +117,14 @@ main img{
     div >.icons1{
         margin-left: 4px;
         margin-right: 25px;
+    }
+    .Tortach {
+        margin: auto;
+        display: block;
+    }
+    .nomech{
+        margin-left: 100px; ;
+        
     }
 }
 main > article{
