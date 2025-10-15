@@ -24,6 +24,7 @@ body {
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 350px;
 }
 section {
     padding: 3rem 2rem;
@@ -39,7 +40,8 @@ section {
     z-index: 99;
     box-shadow: 1px 1.1px 5px #a56c9977;
     border-bottom: var(#eedac1);
-    background: linear-gradient(to bottom, #81196b, #e09fd2); /* 👈 aqui você pode trocar a cor do header */
+    background: linear-gradient(to bottom, #81196b, #e09fd2); 
+    min-height: 80px;
 }
 
 .header section {

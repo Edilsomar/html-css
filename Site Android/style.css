@@ -66,7 +66,7 @@ nav > a{
     padding: 10px ;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .9s;
+    transition-duration: 9s;
 }
 nav a:hover{
     background-color: #1a5c37;
