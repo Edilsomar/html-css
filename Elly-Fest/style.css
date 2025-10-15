@@ -86,9 +86,6 @@ main img{
     display: block; 
     margin: 0 auto;
 } 
-main > article{
-    background-color: #81196b;
-}
 @media (max-width: 600px){
 
     .navbar a{
@@ -101,4 +98,11 @@ main > article{
     .icons{
         margin: 10px;
     }
+}
+main > article{
+    background-color: #81196b;
+}
+main img{
+    margin: auto;
+
 }
