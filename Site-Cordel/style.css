@@ -97,8 +97,8 @@ footer{
     }
 }
 body{
-    max-width: 90%;
     margin: auto;
+    max-width: 90%;
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.466);
     background-image: linear-gradient(to right,rgb(41, 38, 38),#FFBD08);
 }
