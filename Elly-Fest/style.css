@@ -127,7 +127,7 @@ main img{
     }
 }
 main > article{
-    background-image: linear-gradient(to right, #ff00c8, transparent);
+    background-image: linear-gradient(to right, #ff5fdc, transparent);
     box-shadow: 1px -4px 8px #492c4377;
 }
 main h1{

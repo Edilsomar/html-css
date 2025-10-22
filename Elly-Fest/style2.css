@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    left: 0;
+}
+header{
+    background-image: linear-gradient(to bottom,#898a5c ,#e4e6a6);
+    padding-bottom: 12px;
+}
+header img.logo{
+    margin-left: 50px;
+    margin-top: 27px;
+}
+header h1{  
+    position: absolute;
+    left: 28vw;
+    bottom: 86vh;
+    color:#7c087ab0;
+    text-shadow: 2px 2px 2px #da13d683;
+}
+.search {
+    position: absolute;
+    left: 89vw;
+    bottom: 88vh;
+}
+.car {
+    position: absolute;
+    left: 93vw;
+    bottom: 88vh;
+}
+nav{
+    background-color: rgb(228, 230, 166);
+    padding: 0px 10px 10px 10px;
+    box-shadow: 3px 4px 4px #a5a7748a;
+}
+nav > a{
+    color:#7c087ab0  ;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bolder;
+}
+main > img{
+    margin:  auto;
+    display: block;
+    width: 500px;
+}
+
+
